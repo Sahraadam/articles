@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Articles Web Platform - Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" type="text/css" /> 
+    <link rel="stylesheet" href="css/slick.css" type="text/css" />   
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+</head>
+
+<body>
+    <div id="outer">
+        <header class="header order-last" id="tm-header">
+            <nav class="navbar">
+                <div class="collapse navbar-collapse single-page-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-1"><span class="icn"><i class="fa fa-home" aria-hidden="true"></i></span> Homepage</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <button class="navbar-button collapsed" type="button">
+            <span class="menu_icon">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </span>
+        </button>
+        
+        <main id="content-box" class="order-first">
+            <div class="banner-section section parallax-window" data-parallax="scroll" data-image-src="img/bg.jpg" id="section-1">
+                <div class="container">
+                    <div class="item">
+                        <div class="bg-blue-transparent logo-fa"><span><i class="fas fa-newspaper"></i></span>Publication Workflow</div>
+                        <div class="bg-blue-transparent simple"><p>Simplify the publication process with a structured workflow, ensuring smooth transitions from drafting to editing and final publication.</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="contact-section section">
+                <div class="container">
+                    <div class="title">
+                        <h3>Login</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 col-md-6 mb-4 contact-form">
+                            <div class="form tm-contact-item-inner">
+                                <form action="features/user_login.php" method="POST">
+                                    <div class="form-group">
+                                        <input name="email" type="email" class="form-control" placeholder="Email Address" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input name="password" type="password" minlength="8" class="form-control" placeholder="Password" required>
+                                    </div>                       
+                                    <div class="form-group text-right">
+                                        <input type="submit" name="login" class="btn btn-primary" value="Login">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4 contact-details">
+                            <div class="tm-contact-item-inner-2">
+                                <p>Welcome to your go-to hub for seamless article and author management. We empower writers and publishers with an intuitive system designed to streamline the writing process, enhance collaboration, and elevate the publishing experience.</p>
+                                <ul class="font-weight-light">
+                                    <li>
+                                        <span class="icn"><i class="fas fa-mobile-alt"></i></span>
+                                        <span class="lbl">Tel:</span> <a href="#">+254 701 2345678</a>
+                                    </li>
+                                    <li>
+                                        <span class="icn"><i class="fas fa-at"></i></span>
+                                        <span class="lbl">Email:</span> <a href="#">sarah@gmail.com</a>
+                                    </li>
+                                </ul>
+                            </div>                        
+                        </div>
+                    </div>                
+                </div>
+                <footer class="footer container container-2">
+                    <div class="row"> 
+                        <p class="col-sm-7">Copyright 2023.</p>
+                    </div>
+                </footer>
+            </section>
+        </main>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
