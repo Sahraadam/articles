@@ -36,7 +36,6 @@ Welcome to the Articles Management System project, a robust web application desi
    - Logout: Authors can sign out of the system.
 
 7. **Additional Tips:**
-   - Plan your web page layout on paper.
    - Implement session protection, except for index.php.
    - Email notifications for administrators on new article posts.
    - Use `require_once connection.php` on each page for database connectivity.
